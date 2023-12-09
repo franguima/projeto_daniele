@@ -107,10 +107,12 @@ a:hover {
 
 .info-section {
     /* background-color: #EEC084; */
-    padding: 20px;
+    background-image: url('../img/teste.png');
+    padding: 100px;
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
 }
 
 .info-section h1 {
