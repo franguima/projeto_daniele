@@ -50,8 +50,6 @@ a:hover {
     object-fit: cover; /* Mantém as proporções e corta a imagem para cobrir completamente o contêiner */
 }
 
-
-
 .linknounder2 {
     text-decoration: none;
     color: #0077cc;
@@ -87,7 +85,7 @@ a:hover {
 .icon-container {
     width: 50px;
     height: 50px;
-    margin: 10px;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,7 +107,7 @@ a:hover {
     /* background-color: #EEC084; */
     background-image: url('../img/teste.png');
     padding: 100px;
-    margin: 20px 0;
+    margin: 0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: justify;
@@ -157,8 +155,6 @@ a:hover {
 .arrow-next.transform-effect:hover {
     transform: translateY(-3px);
 }
-
-
 
 #scrollTopButton {
     position: fixed;
