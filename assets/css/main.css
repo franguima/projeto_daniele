@@ -3532,6 +3532,10 @@ input, select, textarea {
 										display: none;
 									}
 
+										.slide-link {
+											display: none;
+										}
+										
 							}
 
 						@media screen and (max-width: 736px) {
@@ -3539,10 +3543,6 @@ input, select, textarea {
 							#header nav > ul > li > a {
 								padding: 0 0 0 1.5em;
 							}
-
-							.slide-link {
-								display: none;
-								}
 
 						}
 
