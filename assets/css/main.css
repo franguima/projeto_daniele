@@ -3540,6 +3540,10 @@ input, select, textarea {
 								padding: 0 0 0 1.5em;
 							}
 
+							.slide-link {
+								display: none;
+								}
+
 						}
 
 					#header nav > ul > li:first-child {
