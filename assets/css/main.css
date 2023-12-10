@@ -3532,10 +3532,6 @@ input, select, textarea {
 										display: none;
 									}
 
-										.slide-link {
-											display: none;
-										}
-										
 							}
 
 						@media screen and (max-width: 736px) {
