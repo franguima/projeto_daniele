@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>APPLY ENGINEERING</title>
+    <title>APPLY ENGINEERING - Projetos</title>
 	<link rel="icon" href="images/icone.ico">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -20,6 +20,11 @@
 				height: auto;
 				max-height: 100vh;
 			}
+			.slide-link {
+				visibility: hidden;
+				height: 0;
+			}
+
 		}
     </style>
 </head>
@@ -100,24 +105,6 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/botao_slides.js"></script>
-	<script>
-		
-		function hideLinksOnSmallScreens() {
-		  var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-	  
-		  var maxWidth = 736;
-	  
-		  if (screenWidth <= maxWidth) {
-			var slideLinks = document.querySelectorAll('.slide-link');
-			for (var i = 0; i < slideLinks.length; i++) {
-			  slideLinks[i].style.display = 'none';
-			}
-		  }
-		}
-	  
-		window.addEventListener('load', hideLinksOnSmallScreens);
-		window.addEventListener('resize', hideLinksOnSmallScreens);
-	  </script>
 
 </body>
 
